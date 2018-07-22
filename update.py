@@ -26,6 +26,7 @@ for str in strArr:
 prefix = "https://raw.githubusercontent.com/LittleFish33/ImageHosting/master/"
 for image in list:
 	print prefix + image
+# if there is only image update/add, Copy the url to the clipboard
 if(len(list) == 1):
 	os.system("set/p=\"" + prefix + list[0] +  "\"<nul |clip")
 str = input("Input anything to continue......")
