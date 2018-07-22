@@ -10,16 +10,14 @@ def isImage(str,list):
 			return;
 	return
 
-str = os.popen("git add *")
-print (str)
-mystr = os.popen("git status")
-str = os.popen("git commit -m \"update\"")
-print (str)
-str = os.popen("git pull")
-print (str)
-str = os.popen("git push origin master")
-print (str)
-mystr = mystr.read() # get the string output
+os.system("git add *")
+os.system("git status")
+f = os.popen("git status")
+mystr = f.read() # get the string output
+f.close()
+os.system("git commit -m \"update\"")
+os.system("git pull")
+os.system("git push origin master")
 strArr = mystr.split()
 list = []
 for str in strArr:
