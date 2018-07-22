@@ -13,7 +13,7 @@ def isImage(str,list):
 str = os.popen("git add *")
 print (str)
 mystr = os.popen("git status")
-str = os.popen("git commit")
+str = os.popen("git commit -m \"update\"")
 print (str)
 str = os.popen("git pull")
 print (str)
