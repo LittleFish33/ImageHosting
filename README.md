@@ -8,6 +8,6 @@
 
 很简单的py代码，看一下就懂了，就是使用os.system运行cmd指令而已，做了一点小优化，图片上传后会将图片的url地址输出到控制台上，如果只上传一张图片的话会将图片的url地址复制到剪切板上。
 
-
+![](https://raw.githubusercontent.com/LittleFish33/ImageHosting/master/readme.png)
 
 顺带一提，这里对delete的情况并没有做处理，delete的话也是会输出一个路径的，逃
