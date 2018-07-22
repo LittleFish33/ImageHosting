@@ -10,6 +10,7 @@ def isImage(str,list):
 			return;
 	return
 
+
 os.system("git add *")
 os.system("git status")
 f = os.popen("git status")
@@ -25,3 +26,4 @@ for str in strArr:
 prefix = "https://raw.githubusercontent.com/LittleFish33/ImageHosting/master/"
 for image in list:
 	print prefix + image
+str = input("input anything to continue")
