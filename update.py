@@ -27,5 +27,5 @@ prefix = "https://raw.githubusercontent.com/LittleFish33/ImageHosting/master/"
 for image in list:
 	print prefix + image
 if(len(list) == 1):
-	os.system("echo\"" + prefix + list[0] +  "\"|clip")
+	os.system("set/p=\"" + prefix + list[0] +  "\"<nul |clip")
 str = input("Input anything to continue......")
