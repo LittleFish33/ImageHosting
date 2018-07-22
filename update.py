@@ -1,5 +1,5 @@
 import os
-
+import time
 # if is's a image
 def isImage(str,list):
 	# all the format of the image that the markdown support
@@ -10,9 +10,10 @@ def isImage(str,list):
 			return;
 	return
 
-os.popen("git add *")
+str = os.popen("git add *")
+print (str)
 mystr = os.popen("git status")
-str = os.popen("git commit -m \"update\"")
+str = os.popen("git commit")
 print (str)
 str = os.popen("git pull")
 print (str)
