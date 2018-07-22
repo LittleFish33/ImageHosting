@@ -24,6 +24,7 @@ list = []
 for str in strArr:
 	isImage(str,list)
 prefix = "https://raw.githubusercontent.com/LittleFish33/ImageHosting/master/"
+print ("\nThe urls of the images: \n")
 for image in list:
 	print prefix + image
 # if there is only image update/add, Copy the url to the clipboard
