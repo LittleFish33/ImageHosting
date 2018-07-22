@@ -1,5 +1,5 @@
 import os
-import time
+import datetime
 # if is's a image
 def isImage(str,list):
 	# all the format of the image that the markdown support
@@ -15,7 +15,7 @@ os.system("git status")
 f = os.popen("git status")
 mystr = f.read() # get the string output
 f.close()
-os.system("git commit -m \"update\"")
+os.system("git commit -m \"update" + datetime.datetime.now().strftime('%Y-%m-%d') + "\"")
 os.system("git pull")
 os.system("git push origin master")
 strArr = mystr.split()
