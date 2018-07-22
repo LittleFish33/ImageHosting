@@ -26,4 +26,6 @@ for str in strArr:
 prefix = "https://raw.githubusercontent.com/LittleFish33/ImageHosting/master/"
 for image in list:
 	print prefix + image
+if(len(list) == 1):
+	os.system("echo" + prefix + list[0] +  "|clip")
 str = input("input anything to continue")
