@@ -10,4 +10,4 @@
 
 ![](https://raw.githubusercontent.com/LittleFish33/ImageHosting/master/readme.png)
 
-顺带一提，这里对delete的情况并没有做处理，delete的话也是会输出一个路径的，逃
+顺带一提，这里对delete的情况并没有做处理，delete的话也是会输出一个路径的，还有svg的路径不能使用，逃
