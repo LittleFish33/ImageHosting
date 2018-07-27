@@ -11,3 +11,7 @@
 ![](https://raw.githubusercontent.com/LittleFish33/ImageHosting/master/readme.png)
 
 顺带一提，这里对delete的情况并没有做处理，delete的话也是会输出一个路径的，还有svg的路径不能使用，逃
+
+***
+
+2018-07-27号补充：用了几天，发现github做图床有点不太稳定，有时候要加载好久(｡•́︿•̀｡)
